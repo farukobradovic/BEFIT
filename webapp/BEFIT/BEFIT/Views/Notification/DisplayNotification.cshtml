@@ -1,0 +1,37 @@
+﻿@model Notification
+@{
+    ViewData["Title"] = "Display notification";
+}
+
+<div class="container-no-flex">
+   
+        <div class="article">
+            <div class="first-section">
+                <div class="img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbRVmmgjFoLDIKKRv-LQrGgJVna8DON4oDAIziLH5zUkBQcLkrJw&s"
+                         alt="" />
+                </div>
+                <div class="description">
+                    <h2>
+                       @Model.NotificationName
+                    </h2>
+                   <p>@DateTime.Now.ToShortDateString()</p>
+                </div>
+            </div>
+            <div class="second-section">
+                <p>
+                  @Model.NotificationContent
+                </p>
+            </div>
+            <div class="buttons">
+                <a asp-action="EditNotification" asp-controller="Notification" asp-route-id="@Model.NotificationID" class="update-article linkButton">
+                    <i class="fas fa-edit"></i> Uredi
+                </a>
+                <a asp-action="DeleteNotification"  asp-controller="Notification" asp-route-id="@Model.NotificationID" class="delete-article linkButton">
+                    <i class="fas fa-trash-alt"></i> Obriši
+                </a>
+            </div>
+        </div>
+    
+    
+</div>

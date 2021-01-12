@@ -1,0 +1,47 @@
+﻿@model BEFIT.ViewModels.Administration.CreateRoleViewModel
+
+@{
+    ViewBag.Title = "Kreiranje uloga na sistemu";
+}
+
+<div class="container-no-flex">
+    <div class="profile-form">
+        <h1>Kreiranje uloga na sistemu</h1>
+        <form method="post" id="createRole-form">
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="RoleName">Naziv</label>
+                    <input asp-for="RoleName" type="text" placeholder="Naziv uloge na sistemu" />
+                </div>
+
+                <span asp-validation-for="RoleName" class="message-danger"></span>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="Description">Opis uloge</label>
+                    <input asp-for="Description" type="text" placeholder="Opis uloge na sistemu" />
+                </div>
+
+                <span asp-validation-for="Description" class="message-danger"></span>
+            </div>
+            <button type="submit" class="submit-form" id="submit-form">
+                <i class="fas fa-save"></i> Potvrdi
+            </button>
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#submit-form").click(function () {
+            ValidateForm();
+        });
+    });
+
+    function ValidateForm() {
+        if (!$("#createRole-form").valid()) {
+            return false;
+        }
+    }
+
+</script>

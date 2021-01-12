@@ -1,0 +1,41 @@
+﻿@model IEnumerable<DeletedUser>
+
+@{
+    ViewBag.Title = "Pregled obrisanih korisnika na sistemu";
+}
+
+@if (Model.Any())
+{
+    <div class="container-no-flex">
+       
+        <form method="post">
+            <h1 style="font-weight:400; text-align:center; margin-bottom:3rem;">Obrisani korisnici</h1>
+            <table class="products-table">
+                <tr>
+                    <th>Ime i prezime</th>
+                    <th>Email</th>
+                    <th>Uloga</th>
+                    <th>Datum kreiranja</th>
+                    <th>Datum brisanja</th>
+
+                </tr>
+                @foreach (var u in @Model)
+                {
+                    <tr>
+                        <td>@u.Name @u.Lastname</td>
+                        <td>@u.Email</td>
+                        <td>@u.RoleName</td>
+                        <td>@u.DateRegistered</td>
+                        <td>@u.DateDeleted</td>
+                    </tr>
+                }
+            </table>
+        </form>
+    </div>
+
+
+}
+else
+{
+    <p>Trenutno ne postoje obrisani korisnici na sistemu.</p>
+}

@@ -1,0 +1,213 @@
+﻿@model BEFIT.ViewModels.Account.ProfileViewModel
+@inject UserManager<User> userManager;
+@inject RoleManager<Role> roleManager;
+
+
+
+@{
+    ViewBag.Title = @Model.User.Firstname + " " + @Model.User.Lastname;
+}
+
+    <div class="container" style="padding-bottom: 2rem">
+        @if (@Model.Roles[0] == "Clan")
+        {
+            <div class="profile-infos">
+                <div class="first-section">
+                    <div class="img"><i class="fas fa-user-circle"></i></div>
+                    <div class="profile-infos-desc">
+                        <h2>@Model.User.Firstname @Model.User.Lastname</h2>
+                        <p>@Model.Roles[0]</p>
+                    </div>
+                </div>
+                <div class="second-section">
+                    <p><span>Username: </span>@Model.User.UserName</p>
+                    <p><span>Profil potvrđen: </span>@(Model.User.EmailConfirmed ? "Da" : "Ne")</p>
+                    <p><span>Email: </span>@Model.User.Email</p>
+                    <p><span>Telefon: </span>@Model.User.PhoneNumber</p>
+                    <p><span>Student: </span>@(Model.User.Student ? "Da" : "Ne")</p>
+                    <p><span>Spol: </span>@Model.User.Gender.Name</p>
+                    <p><span>Datum rođenja: </span>@Model.User.Birthdate</p>
+                    <p><span>Datum upisa: </span>@Model.User.DateOfRegister</p>
+                    <p><span>Članarina ističe: </span>@Model.User.DateOfMembershipPayment</p>
+                    <p><span>Članarina: </span>@Model.User.MembershipPrice KM</p>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="profile-infos">
+                <div class="first-section">
+                    <div class="img"><i class="fas fa-user-circle"></i></div>
+                    <div class="profile-infos-desc">
+                        <h2>@Model.User.Firstname @Model.User.Lastname</h2>
+                        <p>@Model.Roles[0]</p>
+                    </div>
+                </div>
+                <div class="second-section">
+                    <p><span>Username: </span>@Model.User.UserName</p>
+                    <p><span>Profil potvrđen: </span>@(Model.User.EmailConfirmed ? "Da" : "Ne")</p>
+                    <p><span>Email: </span>@Model.User.Email</p>
+                    <p><span>Telefon: </span>@Model.User.PhoneNumber</p>
+                    <p><span>Spol: </span>@Model.User.Gender.Name</p>
+                    <p><span>Datum rođenja: </span>@Model.User.Birthdate</p>
+                    <p><span>Datum upisa: </span>@Model.User.DateOfRegister</p>
+                    @if (Model.User.Certificate != null)
+                    {
+                        <p><span>Certifikat: </span>@Model.User.Certificate</p>
+                    }
+
+                    @if (Model.User.DateOfGettingCertificate != null)
+                    {
+                        <p><span>Datum sticanja: </span>@Model.User.DateOfGettingCertificate</p>
+                    }
+                </div>
+            </div>
+        }
+
+        @if (Model.isAuthorized)
+        {
+    <div class="profile-form">
+        <h1>Ažuriraj podatke</h1>
+        <div style="display:flex; align-items:center; justify-content:flex-end">
+            <a asp-action="Create" asp-controller="Nutrition" asp-route-id=@Model.User.Id class="add-button" style="margin-right:1rem">
+                <i class="fas fa-plus"></i> Kreiraj plan ishrane
+            </a>
+            <a asp-action="Create" asp-controller="Training" asp-route-id=@Model.User.Id class="add-button" style="margin-right:1rem">
+                <i class="far fa-clock"></i> Zakaži trening
+            </a>
+            <a asp-action="Create" asp-controller="Message" asp-route-id=@Model.User.Id class="add-button" style="margin-right:1rem">
+                <i class="fas fa-envelope"></i> Kontaktiraj admin tim
+            </a>
+            <a asp-action="Security" asp-controller="Account" asp-route-id=@Model.User.Id class="add-button" style="margin-right:1rem">
+                <i class="fas fa-key"></i> Promijeni šifru
+            </a>
+        </div>
+        <form method="post">
+            <div class="form-inputs" style="flex-direction: row">
+                @if (User.IsInRole("Admin"))
+                {
+                    <div class="upper">
+                        <label asp-for=@Model.RoleName>Vrsta korisnika</label>
+                        <select asp-for=@Model.RoleName>
+                            @foreach (var role in roleManager.Roles)
+                            {
+                                @if (Model.Roles[0] == @role.Name)
+                                {
+                                    <option value=@role.Name selected>@role.Name</option>
+                                }
+                                else
+                                {
+                                    <option value=@role.Name>@role.Name</option>
+                                }
+
+                            }
+
+                        </select>
+                    </div>
+                }
+            </div>
+            <div class="form-inputs" style="flex-direction: row">
+                <label asp-for=@Model.Firstname>Ime</label>
+                <input asp-for=@Model.Firstname type="text" placeholder="Vaše ime" value=@Model.User.Firstname />
+            </div>
+            <div class="form-inputs" style="flex-direction: row">
+                <label asp-for=@Model.Lastname>Prezime</label>
+                <input asp-for=@Model.Lastname type="text" placeholder="Vaše prezime" value=@Model.User.Lastname />
+            </div>
+            <div class="form-inputs" style="flex-direction: row">
+                <label asp-for=@Model.Birthdate>Datum rođenja</label>
+                <input type="text"
+                       placeholder="Vaš datum rođenja"
+                       asp-for=@Model.Birthdate value=@Model.User.Birthdate />
+            </div>
+            <div class="form-inputs" style="flex-direction: row">
+                <label asp-for=@Model.Student>Student</label>
+                <input type="checkbox" asp-for=@Model.Student checked="@Model.User.Student" />
+            </div>
+            <div class="form-inputs" style="flex-direction: row">
+                <label asp-for=@Model.PhoneNumber>Telefon</label>
+                <input type="text"
+                       asp-for=@Model.PhoneNumber
+                       placeholder="Vaš broj telefona" value=@Model.User.PhoneNumber />
+            </div>
+            <div class="form-inputs" style="flex-direction: row">
+                <label asp-for=@Model.DateOfMembershipPayment>Vrijedi do</label>
+                <input type="text"
+                       asp-for=@Model.DateOfMembershipPayment
+                       placeholder="Članarina ističe datuma" value=@Model.User.DateOfMembershipPayment />
+            </div>
+            <div class="form-inputs" style="flex-direction: row">
+                <label asp-for=@Model.Certificate>Certifikat</label>
+                <input type="text" asp-for=@Model.Certificate placeholder="Naziv certifikata" value=@Model.User.Certificate />
+            </div>
+            <div class="form-inputs" style="flex-direction: row">
+                <label asp-for=@Model.DateOfGettingCertificate>Datum</label>
+                <input type="text" asp-for=@Model.DateOfGettingCertificate placeholder="Datum kada ste stekli certifikat" value=@Model.User.DateOfGettingCertificate />
+            </div>
+            <div class="form-inputs" style="flex-direction: row">
+                <label asp-for=@Model.Email>Email</label>
+                <input type="text" asp-for=@Model.Email placeholder="Vaš email" value=@Model.User.Email />
+            </div>
+            <button type="submit" class="update-article" name="submitButton" value="Potvrdi">
+                <i class="fas fa-save"></i> Potvrdi
+            </button>
+            <button class="delete-article" name="submitButton" value="Obrisi" onclick="return confirm('Da li ste sigurni da želite obrisati korisnika?')">
+                <i class="fas fa-trash-alt"></i> Obriši
+            </button>
+        </form>
+    </div>
+        }
+        else
+        {
+            <div class="profile-form">
+                <h1>Ažuriraj podatke</h1>
+                <form method="post">
+                    <div style="display:flex; align-items:center; justify-content:flex-end">
+                        <a asp-action="Create" asp-controller="Message" asp-route-id=@Model.User.Id class="add-button" style="margin-right:1rem">
+                            <i class="fas fa-envelope"></i> Kontaktiraj admin tim
+                        </a>
+                        <a asp-action="Security" asp-controller="Account" asp-route-id=@Model.User.Id class="add-button" style="margin-right:1rem">
+                            <i class="fas fa-key"></i> Promijeni šifru
+                        </a>
+                    </div>
+                    <div class="form-inputs" style="flex-direction: row">
+                        <label asp-for=@Model.Firstname>Ime</label>
+                        <input asp-for=@Model.Firstname type="text" placeholder="Vaše ime" value=@Model.User.Firstname />
+                    </div>
+                    <div class="form-inputs" style="flex-direction: row">
+                        <label asp-for=@Model.Lastname>Prezime</label>
+                        <input asp-for=@Model.Lastname type="text" placeholder="Vaše prezime" value=@Model.User.Lastname />
+                    </div>
+                    <div class="form-inputs" style="flex-direction: row">
+                        <label asp-for=@Model.Birthdate>Datum rođenja</label>
+                        <input type="text"
+                               placeholder="Vaš datum rođenja"
+                               asp-for=@Model.Birthdate value=@Model.User.Birthdate />
+                    </div>
+                    @* Ako jesi student mozes otkacit da nisi vise, ako nisi kontakiraj admina i
+        posalji index pa ce on da promijeni status *@
+                    @*<div class="form-inputs" style="flex-direction: row">
+            <label asp-for=@Model.Student>Student</label>
+            <input type="checkbox" asp-for=@Model.Student checked="@Model.User.Student"  />
+        </div>*@
+                    <div class="form-inputs" style="flex-direction: row">
+                        <label asp-for=@Model.PhoneNumber>Telefon</label>
+                        <input type="text"
+                               asp-for=@Model.PhoneNumber
+                               placeholder="Vaš broj telefona" value=@Model.User.PhoneNumber />
+                    </div>
+
+                    <div class="form-inputs" style="flex-direction: row">
+                        <label asp-for=@Model.Email>Email</label>
+                        <input type="text" asp-for=@Model.Email placeholder="Vaš email" value=@Model.User.Email />
+                    </div>
+                 
+
+                    <button type="submit" class="update-article" name="submitButton" value="Potvrdi">
+                        <i class="fas fa-save"></i> Potvrdi
+                    </button>
+                </form>
+            </div>
+        }
+
+    </div>

@@ -1,0 +1,31 @@
+﻿@model Notification
+@{
+    ViewBag.Title = "Dodaj obavijest";
+    
+}
+
+<div class="container-no-flex">
+    <div class="profile-form">
+        <h1>Dodavanje obavijesti</h1>
+        <form asp-controller="Notification" asp-action="AddNotification" method="post">
+            <div class="form-inputs" style="flex-direction:column;">
+                <div style="display:flex; align-items:center; width:100%;">
+                    @Html.LabelFor(m => m.NotificationName)
+                    <input type="text" class="form-control" id="idNazivObavijest" asp-for="NotificationName">
+                </div>
+                <span asp-validation-for="NotificationName" class="message-danger"></span>
+            </div>
+           
+                <div class="form-inputs" style="flex-direction:column;">
+                    <div style="display:flex; align-items:center; width:100%;">
+                        @Html.LabelFor(m => m.NotificationContent)
+                        <textarea class="form-control" id="idSadrzajObavijesti" rows="10" asp-for="NotificationContent"></textarea>
+                    </div>
+                    <span asp-validation-for="NotificationContent" class="message-danger"></span>
+                </div>
+                <button type="submit" class="update-article">
+                    <i class="fas fa-save"></i> Objavi
+                </button>
+        </form>
+    </div>
+</div>

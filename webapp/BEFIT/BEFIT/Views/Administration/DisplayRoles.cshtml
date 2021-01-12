@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Role>
+
+@{
+    ViewBag.Title = "Pregled svih uloga na sistemu";
+}
+
+@if (Model.Any())
+{
+    <div class="container-no-flex">
+        <a asp-action="CreateRole" asp-controller="Administration" class="add-button" style="margin-right:1rem">
+            <i class="fas fa-plus"></i> Dodaj ulogu
+        </a>
+        <form method="post">
+            <table class="products-table">
+                <tr>
+                    <th>Naziv</th>
+                    <th>Datum kreiranja</th>
+                    <th>Opis</th>
+                    <th><i class="fas fa-trash-alt"></i></th>
+                </tr>
+                @foreach (var role in Model)
+                {
+                    <tr>
+                        <td>@role.Name</td>
+                        <td>@role.DateCreated</td>
+                        <td>@role.Description</td>
+                        <td><button asp-route-id=@role.Id class="delete-product" onclick="return confirm('Da li ste sigurni da želite obrisati ulogu?')">Obriši</button> </td>
+                    </tr>
+                }
+            </table>
+        </form>
+    </div>
+
+
+}
+else
+{
+    <p>Trenutno ne postoje uloge na sistemu</p>
+}

@@ -1,0 +1,32 @@
+﻿@model BEFIT.ViewModels.Exercise.DisplayViewModel
+@{
+    ViewData["Title"] = "Test Test";
+}
+
+    <div class="container-no-flex">
+        <div class="article-workout">
+            <div class="first-section">
+                <div class="img">
+                    <img src="~/images/@Model.Photo"
+                         alt="" />
+                </div>
+                <div class="description">
+                    <h2>
+                        @Model.ExerciseName
+                    </h2>
+                    <h4>@Model.CategoryName</h4>
+                    <p>
+                       @Model.ExerciseDescription
+                    </p>
+                    <div class="buttons">
+                        <a asp-action="EditExercise" asp-controller="Exercise" asp-route-id="@Model.ID" class="update-article linkButton">
+                            <i class="fas fa-edit"></i> Uredi
+                        </a>
+                        <a asp-action="DeleteExercise" asp-controller="Exercise" asp-route-id="@Model.ID" class="delete-article linkButton">
+                            <i class="fas fa-trash-alt"></i> Obriši
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

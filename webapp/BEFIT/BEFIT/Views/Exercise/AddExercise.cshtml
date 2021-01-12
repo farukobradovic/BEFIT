@@ -1,0 +1,62 @@
+﻿@model BEFIT.ViewModels.Exercise.KreirajVjezbuVM
+@{
+    ViewData["Title"] = "AddExercise";
+}
+
+
+<div class="container-no-flex">
+    <div class="profile-form">
+        <h1>Dodavanje vježbe</h1>
+        <form enctype="multipart/form-data" asp-controller="Exercise" asp-action="AddExercise" method="post">
+            <div class="form-inputs" style="flex-direction:column;">
+                <div style="display:flex; align-items:center; width:100%;">
+                    @Html.LabelFor(e => e.ExerciseName)
+                    <input type="text" placeholder="Naziv vježbe" id="name" asp-for="ExerciseName" />
+                </div>
+                <span asp-validation-for="ExerciseName" class="message-danger"></span>
+            </div>
+            <div class="form-inputs" style="flex-direction:column;">
+                <div style="display:flex; align-items:center; width:100%;">
+                    @Html.LabelFor(e => e.Description)
+                    <input type="text" placeholder="Deskripcija" id="name" asp-for="Description" />
+                </div>
+                <span asp-validation-for="Description" class="message-danger"></span>
+
+            </div>
+            <div class="form-inputs" style="flex-direction:column;">
+                <div style="display:flex; align-items:center; width:100%;">
+                    @Html.LabelFor(e => e.Difficulty)
+                    <input type="text" placeholder="Nivo težine vježbe" id="name" asp-for="Difficulty" />
+                </div>
+                <span asp-validation-for="Difficulty" class="message-danger"></span>
+
+            </div>
+            <div class="form-inputs" style="flex-direction:column;">
+                <div style="display:flex; align-items:center; width:100%;">
+                    <label for="labelKategorija">Vrste kategorija</label>
+                    <select asp-for="CategoryID" asp-items="Model.Category"></select>
+                </div>
+            </div>
+            <div class="form-inputs" style="flex-direction:column;">
+                <div style="display:flex; align-items:center; width:100%;">
+                    <input asp-for="Photo" class="form-inputs custom-file-input" />
+                    <label class="custom-file-label">Choose File...</label>
+                </div>
+
+            </div>
+            <button type="submit" class="update-article">
+                <i class="fas fa-save"></i> Potvrdi
+            </button>
+        </form>
+
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $('.custom-file-input').on("change", function () {
+            var fileName = $(this).val().split("\\").pop();
+            $(this).next('.custom-file-label').html(fileName);
+        });
+    });
+
+</script>

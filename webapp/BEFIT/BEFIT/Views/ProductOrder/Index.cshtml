@@ -1,0 +1,32 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="container-no-flex">
+    <table class="products-table">
+        <tr>
+            <th>Naziv</th>
+            <th>Datum narudzbe</th>
+            <th>Cijena</th>
+            <th></th>
+        </tr>
+        @foreach (var i in Model)
+        {  
+    <tr>
+        <td>@i.Naziv</td>
+        <td>@i.ExpirationDate</td>
+        <td>@i.Price</td>
+        <td>
+            <a asp-action="DeleteProductOrder" asp-controller="ProductOrder" asp-route-id="@i.ProductID" class="delete-product linkButton">
+                 Obriši
+            </a>
+
+
+        </td>
+    </tr>
+        }
+    </table>
+    <p class="paragraph-order">*Rok isporuke iznosi 5 radnik dana.</p>
+</div>

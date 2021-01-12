@@ -1,0 +1,62 @@
+﻿@model BEFIT.ViewModels.Account.SecurityViewModel
+
+@{
+    ViewBag.Title = "Ažuriraj šifru";
+}
+
+<div class="container-no-flex">
+    <div class="profile-form">
+        <h1>Ažuriranje šifre</h1>
+        <form method="post" id="security-form">
+            @if (User.IsInRole("Admin"))
+            {
+                <a asp-action="AdminChangePassword" asp-controller="Account" asp-route-id=@Model.UserID class="add-button">
+                    <i class="fas fa-key"></i> Admin privilegije
+                </a>
+            }
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="OldPassword">Stara šifra</label>
+                    <input asp-for="OldPassword" type="password" placeholder="Unesite staru šifru" />
+                </div>
+
+                <span asp-validation-for="OldPassword" class="message-danger"></span>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="NewPassword">Nova šifra</label>
+                    <input asp-for="NewPassword" type="password" placeholder="Unesite novu šifru" />
+                </div>
+
+                <span asp-validation-for="NewPassword" class="message-danger"></span>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="ConfirmPassword">Potvrdi šifru</label>
+                    <input asp-for="ConfirmPassword" type="password" placeholder="Ponovite novu šifru" />
+                </div>
+
+                <span asp-validation-for="ConfirmPassword" class="message-danger"></span>
+            </div>
+            <button type="submit" class="submit-form" id="submit-form">
+                <i class="fas fa-save"></i> Potvrdi
+            </button>
+        </form>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#submit-form").click(function () {
+            ValidateForm();
+        });
+    });
+
+    function ValidateForm() {
+        if (!$("#security-form").valid()) {
+            return false;
+        }
+    }
+
+</script>

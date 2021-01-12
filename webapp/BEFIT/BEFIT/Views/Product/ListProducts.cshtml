@@ -1,0 +1,41 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "ListProducts";
+}
+
+
+
+    <div class="container-no-flex">
+      
+            <a asp-action="AddProduct" asp-controller="Product" class="add-button">
+                <i class="fas fa-plus"></i> Dodaj proizvod
+            </a>
+            <form method="post">
+                <table class="products-table">
+                    <tr>
+                        <th>Naziv</th>
+                        <th>Rok trajanja</th>
+                        <th>Cijena</th>
+                        <th><i class="fas fa-shopping-cart"></i></th>
+                        <th><i class="fas fa-trash-alt"></i></th>
+                    </tr>
+                    @foreach (var i in @Model)
+                    {
+
+                <tr>
+                    <td>@i.Naziv</td>
+                    <td>@i.ExpirationDate.ToString("dd MMM yyyy")</td>
+                    <td>@i.Price KM</td>
+
+                    <td><button type="submit" asp-route-id=@i.ProductID class="buy-product">Kupi</button> </td>
+                    <td><a asp-controller="Product" asp-action="EditProduct" asp-route-id="@i.ProductID" class="update-btn">Uredi</a> </td>
+                </tr>
+                    }
+
+                </table>
+
+
+            </form>
+        
+
+    </div>

@@ -1,0 +1,48 @@
+﻿@model Nutrition
+@{
+    ViewBag.Title = "Plan ishrane";
+}
+
+<div class="container-no-flex">
+    <form method="post" class="form-nutrition" new { enctype="multipart/form-data" }>
+        <h1>Plan ishrane</h1>
+        <div class="div-space-between">
+            <p>Autor: <span>@Model.Author.Firstname @Model.Author.Lastname</span></p>
+            <p>Datum: <span>@Model.Date</span></p>
+        </div>
+        <div class="nutri-plan">
+            <p id="paragraph-n-text">
+                @Model.Description
+            </p>
+
+        </div>
+        
+        <div class="buttons" style="margin-top:3rem;">
+            @if (!User.IsInRole("Clan"))
+            {
+                <button type="submit" class="update-article" name="submitButton" value="Uredi">
+                    <i class="fas fa-edit"></i> Uredi
+                </button>
+                <button class="delete-article" name="submitButton" value="Obrisi" onclick="return confirm('Da li ste sigurni da želite obrisati plan ishrane?')">
+                    <i class="fas fa-trash-alt"></i> Obriši
+                </button>
+            }
+            <a asp-action="DownloadFile" asp-controller="Nutrition" asp-route-id=@Model.NutritionID style="font-size:1.3rem;" class="update-article">
+                <i class="fas fa-download"></i> Preuzmi
+            </a>
+        </div>
+        
+
+    </form>
+</div>
+<script type="text/javascript">
+
+    document.addEventListener("DOMContentLoaded", function () {
+        var text = document.getElementById("paragraph-n-text");
+        var newstring = text.textContent.split('.').join('\<br>');
+        text.innerHTML = newstring;
+
+
+
+    });
+</script>

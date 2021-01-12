@@ -1,0 +1,30 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "EditProduct";
+}
+
+
+<div class="container-no-flex">
+    <div class="profile-form">
+        <form  method="post">
+            <div class="form-inputs"
+                 style="flex-direction: row; align-items: center;">
+                <label for="labelNaziv">Naziv</label>
+                <input type="text" placeholder="Naziv proizvoda" id="idNaziv" asp-for="Naziv" />
+            </div>
+            <div class="form-inputs"
+                 style="flex-direction: row; align-items: center;">
+                <label for="labelRokTrajanja">Rok trajanja</label>
+                <input type="datetime" placeholder="Rok trajanja proizvoda" id="idRokTrajanja" asp-for="ExpirationDate" />
+            </div>
+            <div class="form-inputs"
+                 style="flex-direction: row; align-items: center;">
+                <label for="labelCijena">Cijena</label>
+                <input type="text" placeholder="Cijena proizvoda" id="idCijena" asp-for="Price" />
+            </div>
+            <button type="submit" class="update-article">
+                <i class="fas fa-save"></i> Potvrdi
+            </button>
+        </form>
+    </div>
+</div>

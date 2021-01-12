@@ -1,0 +1,41 @@
+﻿@model BEFIT.ViewModels.Exercise.ListaVjezbiVM
+@{
+    ViewData["Title"] = "ListaVjezbi";
+}
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<div class="container-workout">
+    <a asp-action="AddExercise" asp-controller="Exercise" class="add-button">
+        <i class="fas fa-plus"></i> Dodaj vježbu
+    </a>
+    <select class="select-workout" id="dropdown" asp-for="CategoryId" asp-items="@Model.Category">
+        <option value="Sve">--Lista kategorija--</option>
+    </select>
+
+</div>
+<div id="vjezbe-container" class="container-workout">
+
+</div>
+<script>
+
+    $('#dropdown').change(function (e) {
+
+        var rows = $('#dropdown option:selected').val();
+
+        $.ajax({
+            type: 'GET',
+            url: '/Exercise/_ListaVjezbi',
+            data: { id: rows },
+            success: function (data) {
+                $('#vjezbe-container').html(data);
+            },
+            error: function () {
+                alert('Doslo je do pogreske!');
+            }
+
+
+
+        });
+
+    });
+</script>

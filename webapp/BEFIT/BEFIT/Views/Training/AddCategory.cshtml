@@ -1,0 +1,33 @@
+﻿@model BEFIT.ViewModels.Training.AddCategoryViewModel
+
+
+@{
+    ViewBag.Title = "Kreiranje kategorija";
+}
+
+<div class="container-no-flex">
+    <div class="profile-form">
+        <h1>Kreiranje trening kategorija </h1>
+        <form method="post">
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="Name">Naziv</label>
+                    <input asp-for="Name" type="text" placeholder="Vrsta treninga" />
+                </div>
+
+                <span asp-validation-for="Name" class="message-danger"></span>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="Description">Opis treninga</label>
+                    <input asp-for="Description" type="text" placeholder="Opis kategorija treninga" />
+                </div>
+
+                <span asp-validation-for="Description" class="message-danger"></span>
+            </div>
+            <button type="submit" class="submit-form">
+                <i class="fas fa-save"></i> Potvrdi
+            </button>
+        </form>
+    </div>
+</div>

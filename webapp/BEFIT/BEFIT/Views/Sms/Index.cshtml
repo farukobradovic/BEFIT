@@ -1,0 +1,36 @@
+﻿@model SmsModel
+
+<div class="container-no-flex">
+    <div class="profile-form">
+        <h1>Sms</h1>
+
+        <form asp-controller="Sms" asp-action="Sms" method="post">
+
+            <div class="form-inputs">
+                <div class="upper">
+                    @Html.LabelFor(m => m.To)
+                    @Html.TextBoxFor(x => x.To)
+                </div>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    @Html.LabelFor(x => x.From)
+                    @Html.TextBoxFor(x => x.From)
+                </div>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    @Html.LabelFor(x => x.Text)
+                    @Html.TextAreaFor(x => x.Text, 10, 10, null)
+                </div>
+            </div>
+            <button type="submit" class="submit-form">
+                <i class="fas fa-save"></i> Posalji
+            </button>
+        </form>
+    </div>
+
+</div>
+<h3>@ViewBag.Error</h3>
+
+

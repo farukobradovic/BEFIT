@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Nutrition>
+
+@{
+    ViewBag.Title = "Prikaz planova ishrane";
+}
+
+<div class="container-no-flex">
+    <h1 style="margin-bottom:3rem; text-align:center; font-weight:400;">Prikaz planova ishrane</h1>
+    <table class="products-table">
+        <tr>
+            <th>Autor</th>
+            <th>Član</th>
+            <th>Datum</th>
+            <th><i class="far fa-eye"></i></th>
+        </tr>
+
+        @foreach (var n in Model)
+        {
+    <tr>
+        <td>@n.Author.Firstname @n.Author.Lastname</td>
+        <td>@n.User.Firstname @n.User.Lastname</td>
+        <td>@n.Date</td>
+        <td>
+            <a asp-action="Display" asp-controller="Nutrition" asp-route-id=@n.NutritionID style="font-size:1.5rem; width:9rem; display:inline-block; text-align:center;" class="buy-product"> Pogledaj</a>
+        </td>
+ 
+    </tr>
+        } 
+    </table>
+</div>

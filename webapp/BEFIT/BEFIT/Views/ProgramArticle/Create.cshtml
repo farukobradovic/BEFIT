@@ -1,0 +1,47 @@
+﻿@model BEFIT.ViewModels.ProgramArticle.CreateProgramArticleVM
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container-no-flex">
+    <div class="profile-form">
+        <h1>Kreiraj članak</h1>
+
+        <form enctype="multipart/form-data" asp-controller="ProgramArticle" asp-action="Create" method="post">
+
+            <div class="form-inputs">
+                <div class="upper">
+                    @Html.LabelFor(m => m.Name)
+                    @Html.TextBoxFor(x => x.Name)
+                </div>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    @Html.LabelFor(x => x.Description)
+                    @Html.TextAreaFor(x => x.Description, 10, 30, null)
+                </div>
+            </div>
+            <div class="form-inputs" style="flex-direction:column;">
+                <div style="display:flex; align-items:center; width:100%;">
+                    <input asp-for="Photo" class="form-inputs custom-file-input" />
+                    <label class="custom-file-label"></label>
+                </div>
+
+            </div>
+
+            <button type="submit" class="submit-form">
+                <i class="fas fa-save"></i> Potvrdi
+            </button>
+            </form>
+    </div>
+
+</div>
+<script>
+    $(document).ready(function () {
+        $('.custom-file-input').on("change", function () {
+            var fileName = $(this).val().split("\\").pop();
+            $(this).next('.custom-file-label').html(fileName);
+        });
+    });
+
+</script>

@@ -1,0 +1,51 @@
+﻿@model BEFIT.ViewModels.Nutrition.CreateNutritionViewModel
+
+@{
+    ViewBag.Title = "Kreiraj plan ishrane";
+}
+
+<div class="container-no-flex">
+    <form method="post" class="form-nutrition" id="createNutrition-form" new { enctype="multipart/form-data" }>
+        <h1>Kreiranje plana ishrane</h1>
+        <div class="div-space-between">
+            <p>Za: <span>@Model.Name</span></p>
+            <a asp-action="List" asp-controller="Nutrition" class="add-button" style="margin-right:1rem">
+                <i class="fas fa-list-alt"></i> Prikaz planova ishrane
+            </a>
+        </div>
+        <textarea asp-for=NutritionText placeholder="Unesite plan ishrane za korisnika..."
+                  cols="60"
+                  rows="30">@Model.NutritionText</textarea>
+        <span asp-validation-for="NutritionText" class="message-danger" style="display:inline-block"></span>
+        <div>
+            @*<label asp-for="File" class="file-input">Ime</label>*@
+            <input asp-for="File" class="file-label" />
+        </div>
+        <button type="submit" class="update-article" id="submit-form">
+            <i class="fas fa-save"></i> Potvrdi
+        </button>
+
+    </form>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#submit-form").click(function () {
+            ValidateForm();
+        });
+    });
+
+    function ValidateForm() {
+        if (!$("#createNutrition-form").valid()) {
+            return false;
+        }
+    }
+
+    //$(document).ready(function () {
+    //    $("file-input").on("change", function () {
+    //        var fileName = $(this).val().split("\\").pop();
+    //        $(this).next("file-label").html(fileName);
+    //    })
+    //})
+
+</script>

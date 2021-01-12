@@ -1,0 +1,40 @@
+﻿@model BEFIT.ViewModels.MessageType.CreateMessageTypeViewModel
+
+@{
+    ViewBag.Title = "Kreiraj vrstu poruke";
+}
+
+<div class="container-no-flex">
+    <div class="profile-form">
+        <h1>Kreiraj vrstu poruke</h1>
+        <form method="post" id="createMessageType-form">
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="Name">Naslov</label>
+                    <input asp-for="Name" type="text" placeholder="Naslov poruke" />
+                </div>
+
+                <span asp-validation-for="Name" class="message-danger"></span>
+            </div>
+          
+            <button type="submit" class="submit-form" id="submit-form">
+                <i class="fas fa-save"></i> Potvrdi
+            </button>
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#submit-form").click(function () {
+            ValidateForm();
+        });
+    });
+
+    function ValidateForm() {
+        if (!$("#createMessageType-form").valid()) {
+            return false;
+        }
+    }
+
+</script>

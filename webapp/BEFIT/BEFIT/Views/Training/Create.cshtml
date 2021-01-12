@@ -1,0 +1,65 @@
+﻿@model BEFIT.ViewModels.Training.CreateTrainingViewModel
+
+@{
+    ViewBag.Title = "Kreiraj trening";
+}
+    <form method="post" id="createTraining-form">
+        <div class="container-training">
+            <h1>Dodavanje treninga</h1>
+            <div style="display: flex; margin-bottom: 1rem; align-items:center; justify-content:space-between;">
+                <p><span style="font-weight:500;">Za:</span> @Model.NameLastname</p>
+                @if (User.IsInRole("Admin"))
+                {
+                    <div style="display:flex; align-items:center;">
+                        <a asp-action="AddCategory" asp-controller="Training" class="add-button" style="margin-right:2rem">
+                            <i class="fas fa-plus"></i> Dodaj kategoriju
+                        </a>
+                        <a asp-action="DisplayCategories" asp-controller="Training" class="add-button">
+                            <i class="fas fa-list-alt"></i> Pregled kategorija
+                        </a>
+                    </div>
+                }
+            </div>
+            <div class="training-desc">
+                <div class="date-training">
+                    <label asp-for=@Model.TrainingCategory>Vrsta treninga</label>
+                    <select asp-for=@Model.TrainingCategory style="padding:1rem; width:100%; border-radius:5px; border: 1px solid transparent; outline: none">
+                        @foreach (var c in Model.TrainingCategories)
+                        {
+                            <option value=@c.TrainingTypeName>@c.TrainingTypeName</option>
+                        }
+                    </select>
+                </div>
+                <div class="from-to">
+                    <div class="from">
+                        <label asp-for=@Model.TrainingFrom>Od</label>
+                        <input asp-for=@Model.TrainingFrom type="text" placeholder="Trening počinje u 20:00..." value=@Model.TrainingFrom />
+                    </div>
+                    <div class="to">
+                        <label asp-for=@Model.TrainingTill>Do</label>
+                        <input asp-for=@Model.TrainingTill type="text" placeholder="Trening završava u 21:30..." value=@Model.TrainingTill />
+                    </div>
+                </div>
+                <div asp-validation-summary="All" style="list-style: none;" class="message-danger"></div>
+            </div>
+            <button type="submit" class="update-article" id="submit-form">
+                <i class="fas fa-save"></i> Sačuvaj
+            </button>
+
+        </div>
+    </form>
+
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $("#submit-form").click(function () {
+            ValidateForm();
+        });
+    });
+
+    function ValidateForm() {
+        if (!$("#createTraining-form").valid()) {
+            return false;
+        }
+    }
+
+    </script>

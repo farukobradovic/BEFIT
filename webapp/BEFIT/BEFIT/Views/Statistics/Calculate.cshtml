@@ -1,0 +1,86 @@
+﻿@model BEFIT.ViewModels.Statistics.CreateStatViewModel
+
+
+@{
+    ViewBag.Title = "Izračunaj svoj BMI";
+}
+
+<div class="container-no-flex">
+    <div class="profile-form">
+        <h1>Izračunaj svoj BMI</h1>
+        <div style="display:flex; align-items:center; justify-content:flex-end">
+            <a asp-action="List" asp-controller="Statistics" class="add-button" style="margin-right:1rem">
+                <i class="fas fa-newspaper"></i> Historija rezultata
+            </a>
+        </div>
+
+        <div style="display: flex; align-items: center; justify-content: space-between;" class="form-stat">
+            <div class="form-inputs" style="flex: 45% 0;">
+                <div class="upper">
+                    <label for="height-value">Vaša visina</label>
+                    <input id="height-value" asp-for="Height" type="text" placeholder="Visina npr 1.9" />
+                </div>
+
+            </div>
+            <div class="form-inputs" style="flex: 45% 0;">
+                <div class="upper">
+                    <label for="weight-value">Vaša kilaža</label>
+                    <input id="weight-value" type="text" placeholder="Vaša kilaža u kg" />
+                </div>
+            </div>
+        </div>
+        <span class="message-danger" id="message-statistic" style="display:block;"></span>
+        <button class="submit-form" id="submit-calculate">
+            <i class="fas fa-save"></i> Potvrdi
+        </button>
+
+
+        <div class="statistic-result" id="statistic-div">
+
+        </div>
+        <div class="loader" style="margin: auto;"></div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    var statistic = document.getElementById("statistic-div");
+    var height = document.getElementById("height-value");
+    var weight = document.getElementById("weight-value");
+    var statisticDiv = document.getElementById("statistic-div");
+    var message = document.getElementById("message-statistic");
+    var spinner = document.querySelector(".loader");
+
+    document.getElementById("submit-calculate").addEventListener("click", async function () {
+        var html = "";
+        if (height.value !== "" && weight.value !== "") {
+            message.innerHTML = "";
+            spinner.style.display = "block";
+            const response = await fetch(`/api/statistics/${height.value}/${weight.value}`);
+            const myJson = await response.json();
+            console.log(myJson);
+            var levelBMI = "";
+            if (myJson.calculatedBMI < 18.5)
+                levelBMI = "pothranjen";
+            else if (myJson.calculatedBMI >= 18.5 && myJson.calculatedBMI < 25)
+                levelBMI = "idealan";
+            else if (myJson.calculatedBMI >= 25 && myJson.calculatedBMI < 30)
+                levelBMI = "prekomjerna tjelesna težina";
+            else if (myJson.calculatedBMI >= 30)
+                levelBMI = "pretilost";
+            spinner.style.display = "none";
+
+            html = `
+            <h1>Vaš BMI je ${levelBMI} i iznosi: <span style="color: #2e86de">${myJson.calculatedBMI.toFixed(2)}</span></h1>
+            <p class="first-paragraph">Vaš BMI je ${myJson.calculatedBMI < myJson.averageBMI ? 'manji' : 'veći'} od prosječnog BMI svih članova kluba.</p>
+            <p class="second-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus nisi fuga nam numquam. Voluptas, adipisci. Officiis soluta consequatur accusamus necessitatibus asperiores in et fugit? Pariatur consectetur fugiat repellat! Doloribus.</p>
+            `;
+            height.value = "";
+            weight.value = "";
+            statisticDiv.innerHTML = html;
+        }
+        else {
+            message.innerHTML = "Visina ili težina nisu uneseni";
+        }
+    });
+</script>

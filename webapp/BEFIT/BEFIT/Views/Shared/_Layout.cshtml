@@ -1,0 +1,191 @@
+﻿@inject SignInManager<User> signInManager;
+@inject UserManager<User> userManager;
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] | BEFIT</title>
+    <script src="https://kit.fontawesome.com/78ef64fa4d.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
+          rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" />
+ 
+
+</head>
+<body>
+    @if (signInManager.IsSignedIn(User))
+    {
+
+        <div class="container-main">
+            <nav class="navigation">
+                @*<h2 class="heading-logo"><span>B-E-</span>Fit</h2>*@
+                <div class="menu-flex">
+                    <div class="img-logo">
+                        <img src="~/images/logotip.png" alt="" />
+                    </div>
+                    <i id="menu-button"
+                       class="fas fa-bars"
+                       style="color: #fff; font-size: 3rem; margin-right: 2rem;"></i>
+                </div>
+                @*<div class="img-logo">
+                        <img src="~/images/logotip.png" alt="" />
+                    </div>*@
+                <div class="toggle-links">
+                    <div class="links-section">
+                        <h2>Izborno</h2>
+                        <ul class="list">
+                            <li class="list-item">
+                                <a asp-action="Index" asp-controller="Notification" class="list-item-link active"><i class="fas fa-home"></i> Početna</a>
+                            </li>
+                            @if (!User.IsInRole("Clan"))
+                            {
+                                <li class="list-item">
+                                    <a asp-controller="Account" asp-action="Register" class="list-item-link"><i class="fas fa-user-plus"></i>Registracije</a>
+                                </li>
+                            }
+                            @if (!User.IsInRole("Clan"))
+                            {
+                                <li class="list-item">
+                                    <a asp-action="AddNotification" asp-controller="Notification" class="list-item-link"><i class="fas fa-newspaper"></i>Obavijesti</a>
+                                </li>
+                            }
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="list-item">
+                                    <a asp-controller="Message" asp-action="List" class="list-item-link"><i class="fas fa-envelope"></i>Poruke</a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="links-section">
+                        <h2>Uvid</h2>
+                        <ul class="list">
+                            @if (!User.IsInRole("Clan"))
+                            {
+                                <li class="list-item">
+                                    <a asp-action="Users" asp-controller="Account" class="list-item-link"><i class="fas fa-user"></i> Članovi</a>
+                                </li>
+                            }
+
+                            <li class="list-item">
+                                <a asp-action="ListaVjezbi" asp-controller="Exercise" class="list-item-link"><i class="fas fa-dumbbell"></i> Vježbe</a>
+                            </li>
+                            <li class="list-item">
+                                <a asp-controller="Training" asp-action="Display" class="list-item-link"><i class="fas fa-running"></i> Trening</a>
+                            </li>
+                            <li class="list-item">
+                                <a asp-controller="Nutrition" asp-action="List" class="list-item-link"><i class="fas fa-utensils"></i> Ishrana</a>
+                            </li>
+                            <li class="list-item">
+                                <a asp-action="Index" asp-controller="ProgramArticle" class="list-item-link"><i class="fas fa-newspaper"></i>Programi</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="links-section">
+                        <h2>Nutri bar</h2>
+                        <ul class="list">
+                            <li class="list-item">
+                                <a asp-controller="Product" asp-action="ListProducts" class="list-item-link"><i class="fas fa-coffee"></i> Proizvodi</a>
+                            </li>
+                            <li class="list-item">
+                                <a asp-controller="ProductOrder" asp-action="Index" class="list-item-link"><i class="fas fa-history"></i> Narudžbe</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="links-section">
+                        <h2>Statistika</h2>
+                        <ul class="list">
+                            <li class="list-item">
+                                <a asp-action="Calculate" asp-controller="Statistics" class="list-item-link"><i class="far fa-chart-bar"></i> B-E-Fit Kalkulator</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="board">
+                <div class="header">
+                    <div class="nottification-training">
+                        <p class="paragraph-nottification">
+                            <i class="fas fa-code"></i> By FoBm Team <i class="fas fa-code"></i>
+                        </p>
+                    </div>
+                    <div class="other-info">
+                        <a asp-action="Profile" asp-controller="Account" asp-route-id=@userManager.GetUserId(User) class="info-badge">
+                            @User.Identity.Name <i class="fas fa-user-circle"></i>
+                        </a>
+                        <form method="post" asp-action="logout" asp-controller="account">
+                            <button class="info-badge button-link logout-button">
+                                Odjavi Se <i class="fas fa-sign-out-alt"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                @RenderBody()
+            </div>
+        </div>
+    }
+    else
+    {
+        @RenderBody()
+    }
+
+    @*<partial name="_CookieConsentPartial" />*@
+
+    @*<div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; 2019 - BEFIT</p>
+            </footer>
+        </div>*@
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+</body>
+</html>
+
+<script type="text/javascript">
+    var button = document.getElementById("menu-button");
+    var links = document.querySelector(".toggle-links");
+
+    if (button) {
+        button.addEventListener("click", function (e) {
+             e.target.parentElement.parentElement.classList.toggle("menu-style-click");
+        });
+    }
+
+    if ($(window).width() > 400) {
+        if (links) {
+            links.style.display = "block";
+        }
+ 
+    }
+</script>

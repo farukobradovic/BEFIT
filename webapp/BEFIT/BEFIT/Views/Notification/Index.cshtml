@@ -1,0 +1,30 @@
+﻿@model List<Notification>
+@{
+    ViewData["Title"] = "Početna stranica";
+}
+
+    <div class="container-center">
+        @foreach (var i in @Model)
+        {
+        <a asp-action="DisplayNotification" asp-route-id="@i.NotificationID" class="card">
+            <div class="img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbRVmmgjFoLDIKKRv-LQrGgJVna8DON4oDAIziLH5zUkBQcLkrJw&s"
+                     alt="" />
+            </div>
+            <div class="description">
+                <h2>
+                    @i.NotificationName
+                </h2>
+                <p class="paragraph-description">
+                    @i.NotificationContent
+                </p>
+            </div>
+           @* <button asp-action="EditNotification" asp-route-id="@i.NotificationID" type="submit" class="update-article">
+                <i class="fas fa-save"></i> Uredi
+            </button>*@
+            @*<a asp-action="EditNotification" class="update-article">Uredi</a>*@
+
+
+        </a>
+        }
+    </div>

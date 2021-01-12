@@ -1,0 +1,27 @@
+﻿@model List<ProgramArticle>
+@{
+    ViewData["Title"] = "Index";
+
+}
+
+<div class="container-no-flex">
+    <div style="display:flex; align-items:center; justify-content:flex-end">
+        <a asp-controller="ProgramArticle" asp-action="Create" class="add-button" style="margin-right:1rem">
+            <i class="fas fa-newspaper"></i> Kreiraj članak
+        </a>
+    </div>
+    <div class="programs-grid">
+        @foreach (var pa in Model)
+        {
+            var photoPath = "~/Images/" + (pa.PhotoPath);
+
+            <a asp-action="DisplayProgramArticle" asp-controller="ProgramArticle" asp-route-id="@pa.Id" class="program">
+                <div class="img">
+                    <img src="@photoPath" asp-append-version="true"
+                         alt="" />
+                </div>
+                <h2>@pa.ProgramName</h2>
+            </a>
+        }       
+    </div>
+</div>

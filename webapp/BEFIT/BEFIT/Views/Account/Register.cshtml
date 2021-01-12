@@ -1,0 +1,169 @@
+﻿@model BEFIT.ViewModels.Register.RegisterViewModel
+@inject RoleManager<Role> roleManager;
+
+@{
+    ViewBag.Title = "Kreiranje korisnika";
+}
+
+<div class="container-no-flex" style="margin-bottom: 0">
+    <div class="profile-form">
+        <h1>Registracija korisnika</h1>
+        @if (User.IsInRole("Admin"))
+        {
+            <div style="display: flex; margin-bottom: 1rem">
+                <a asp-action="CreateRole" asp-controller="Administration" class="add-button" style="margin-right:2rem">
+                    <i class="fas fa-plus"></i> Dodaj ulogu
+                </a>
+                <a asp-action="DisplayRoles" asp-controller="Administration" class="add-button">
+                    <i class="fas fa-list-alt"></i> Pregled uloga
+                </a>
+            </div>
+        }
+        <form method="post" id="registration-form">
+            @*<div asp-validation-summary="All" class="dangerMessage"></div>*@
+            <div class="form-inputs">
+                @if (User.IsInRole("Admin"))
+                {
+                    <div class="upper">
+                        <label asp-for=@Model.RoleName>Vrsta korisnika</label>
+                        <select asp-for=@Model.RoleName>
+                            @foreach (var role in roleManager.Roles)
+                            {
+                                <option value=@role.Name>@role.Name</option>
+                            }
+                        </select>
+                    </div>
+                }
+                else
+                {
+                    <div class="upper">
+                        <label asp-for=@Model.RoleName>Vrsta korisnika</label>
+                        <select asp-for=@Model.RoleName>
+                            @foreach (var role in roleManager.Roles)
+                            {
+                                @if (role.Name == "Clan")
+                                {
+                                    <option value=@role.Name>@role.Name</option>
+                                }
+                            }
+                        </select>
+                    </div>
+                }
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="Firstname">Ime</label>
+                    <input asp-for="Firstname" type="text" placeholder="Vaše ime" />
+                </div>
+
+                <span asp-validation-for="Firstname" class="message-danger"></span>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="LastName">Prezime</label>
+                    <input asp-for="LastName" type="text" placeholder="Vaše prezime" />
+                </div>
+                <span asp-validation-for="LastName" class="message-danger"></span>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for=MyGender>Spol</label>
+                    <select asp-for=MyGender>
+                        @foreach (var gender in Model.Genders)
+                        {
+                            <option value=@gender.Name>@gender.Name</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="Birthdate">Datum rođenja</label>
+                    <input asp-for="Birthdate"
+                           placeholder="Vaš datum rođenja" />
+                </div>
+
+                <span asp-validation-for="Birthdate" class="message-danger"></span>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="Student">Student</label>
+                    <input asp-for="Student" type="checkbox" />
+                </div>
+
+                <span asp-validation-for="Student" class="message-danger"></span>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="Phone">Telefon</label>
+                    <input asp-for="Phone" type="text"
+                           placeholder="Vaš broj telefona" />
+                </div>
+
+                <span asp-validation-for="Phone" class="message-danger"></span>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="Email">Email</label>
+                    <input asp-for="Email" type="text" placeholder="Vaš email" />
+                </div>
+
+                <span asp-validation-for="Email" class="message-danger"></span>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="Certificate">Certifikat</label>
+                    <input asp-for="Certificate" type="text"
+                           placeholder="Naziv certifikata" />
+                </div>
+
+                <span asp-validation-for="Certificate" class="message-danger"></span>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="DateOfGettingCertificate">Datum polaganja</label>
+                    <input asp-for="DateOfGettingCertificate"
+                           placeholder="Datum stjecanja certifikata" />
+                </div>
+
+                <span asp-validation-for="DateOfGettingCertificate" class="message-danger"></span>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="Password">Šifra</label>
+                    <input asp-for="Password" type="password"
+                           placeholder="Vaša šifra za logiranje" />
+                </div>
+
+                <span asp-validation-for="Password" class="message-danger"></span>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="ConfirmPassword">Potvrdi šifru</label>
+                    <input asp-for="ConfirmPassword" type="password" placeholder="Potvrdite šifru" />
+                </div>
+
+                <span asp-validation-for="ConfirmPassword" class="message-danger"></span>
+            </div>
+            <button type="submit" class="submit-form" id="submit-form"> 
+                <i class="fas fa-save"></i> Potvrdi
+            </button>
+        </form>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#submit-form").click(function () {
+            ValidateForm();
+        });
+    });
+
+    function ValidateForm() {
+        if (!$("#registration-form").valid()) {
+            return false;
+        }
+    }
+
+</script>

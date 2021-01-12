@@ -1,0 +1,341 @@
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\nlog.config
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\libman.json
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.deps.json
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.runtimeconfig.json
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.runtimeconfig.dev.json
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.dll
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.pdb
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.Views.dll
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.Views.pdb
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorAssemblyInfo.cache
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorAssemblyInfo.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.AssemblyInfoInputs.cache
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.AssemblyInfo.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.TagHelpers.input.cache
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.TagHelpers.output.cache
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorCoreGenerate.cache
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountLocked.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\AdminChangePassword.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\DeletedUsers.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Profile.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPasswordConfirmed.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Security.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Users.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Administration\DisplayRoles.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\AddExercise.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\ListaVjezbi.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\MessageType\Create.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\MessageType\Display.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Message\Create.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Message\Display.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Message\List.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\AddNotification.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\DisplayNotification.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\EditNotification.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\Index.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Nutrition\Create.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Nutrition\Display.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Nutrition\List.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\ProductOrder\Index.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Product\AddProduct.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Product\EditProduct.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Product\ListProducts.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Message.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Statistics\Calculate.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Statistics\List.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\AddCategory.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\Create.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\Display.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\DisplayCategories.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorTargetAssemblyInfo.cache
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorTargetAssemblyInfo.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.Views.pdb
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.dll
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.pdb
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.csproj.CopyComplete
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.csprojAssemblyReference.cache
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\DisplayExercise.cshtml.g.cs
+C:\Users\User 2018\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\EditExercise.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\nlog.config
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\libman.json
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.deps.json
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.runtimeconfig.json
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.runtimeconfig.dev.json
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.dll
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.pdb
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.Views.dll
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.Views.pdb
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.AssemblyInfoInputs.cache
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.AssemblyInfo.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorAssemblyInfo.cache
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorAssemblyInfo.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.TagHelpers.input.cache
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.TagHelpers.output.cache
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorCoreGenerate.cache
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountLocked.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\AdminChangePassword.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\DeletedUsers.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Profile.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPasswordConfirmed.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Security.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Users.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Administration\DisplayRoles.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\AddExercise.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\DisplayExercise.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\EditExercise.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\ListaVjezbi.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\MessageType\Create.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\MessageType\Display.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Message\Create.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Message\Display.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Message\List.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\AddNotification.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\DisplayNotification.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\EditNotification.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\Index.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Nutrition\Create.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Nutrition\Display.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Nutrition\List.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\ProductOrder\Index.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Product\AddProduct.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Product\EditProduct.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Product\ListProducts.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Message.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Statistics\Calculate.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Statistics\List.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\AddCategory.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\Create.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\Display.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\DisplayCategories.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorTargetAssemblyInfo.cache
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorTargetAssemblyInfo.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.Views.pdb
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.dll
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.pdb
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.genruntimeconfig.cache
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.csproj.CopyComplete
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.csprojAssemblyReference.cache
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\ProgramArticle\Index.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\ProgramArticle\Create.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\ProgramArticle\DisplayProgramArticle.cshtml.g.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.csproj.CoreCompileInputs.cache
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\User 2018\Desktop\Seminarski_RS1\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Sms\Index.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\nlog.config
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\libman.json
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.deps.json
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.runtimeconfig.json
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.runtimeconfig.dev.json
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.dll
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.pdb
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.Views.dll
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.Views.pdb
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.csprojAssemblyReference.cache
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.AssemblyInfoInputs.cache
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.AssemblyInfo.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.csproj.CoreCompileInputs.cache
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorAssemblyInfo.cache
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorAssemblyInfo.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.TagHelpers.input.cache
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.TagHelpers.output.cache
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorCoreGenerate.cache
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountLocked.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\AdminChangePassword.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\DeletedUsers.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Profile.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPasswordConfirmed.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Security.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Users.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Administration\DisplayRoles.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\AddExercise.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\DisplayExercise.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\EditExercise.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\ListaVjezbi.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\MessageType\Create.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\MessageType\Display.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Message\Create.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Message\Display.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Message\List.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\AddNotification.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\DisplayNotification.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\EditNotification.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\Index.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Nutrition\Create.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Nutrition\Display.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Nutrition\List.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\ProductOrder\Index.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Product\AddProduct.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Product\EditProduct.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Product\ListProducts.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\ProgramArticle\Create.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\ProgramArticle\DisplayProgramArticle.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\ProgramArticle\Index.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Message.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Sms\Index.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Statistics\Calculate.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Statistics\List.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\AddCategory.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\Create.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\Display.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\DisplayCategories.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorTargetAssemblyInfo.cache
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorTargetAssemblyInfo.cs
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.Views.pdb
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.dll
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.pdb
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.genruntimeconfig.cache
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.csproj.CopyComplete
+C:\Users\WIN10\Desktop\Seminarski_rad\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\_ListaVjezbi.cshtml.g.cs
+C:\Users\Faruk\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.dll
+C:\Users\Faruk\Source\Repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.pdb
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\nlog.config
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\libman.json
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.deps.json
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.runtimeconfig.json
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.runtimeconfig.dev.json
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.dll
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.pdb
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.Views.dll
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\bin\Debug\netcoreapp2.1\BEFIT.Views.pdb
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.csprojAssemblyReference.cache
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorAssemblyInfo.cache
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorAssemblyInfo.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.AssemblyInfoInputs.cache
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.AssemblyInfo.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.TagHelpers.input.cache
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.TagHelpers.output.cache
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorCoreGenerate.cache
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\AccountLocked.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\AdminChangePassword.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\DeletedUsers.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Profile.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\ResetPasswordConfirmed.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Security.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Account\Users.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Administration\CreateRole.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Administration\DisplayRoles.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\AddExercise.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\DisplayExercise.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\EditExercise.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\ListaVjezbi.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Exercise\_ListaVjezbi.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\MessageType\Create.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\MessageType\Display.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Message\Create.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Message\Display.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Message\List.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\AddNotification.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\DisplayNotification.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\EditNotification.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Notification\Index.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Nutrition\Create.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Nutrition\Display.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Nutrition\List.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\ProductOrder\Index.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Product\AddProduct.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Product\EditProduct.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Product\ListProducts.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\ProgramArticle\Create.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\ProgramArticle\DisplayProgramArticle.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\ProgramArticle\Index.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Message.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Sms\Index.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Statistics\Calculate.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Statistics\List.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\AddCategory.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\Create.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\Display.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\Training\DisplayCategories.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorTargetAssemblyInfo.cache
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.RazorTargetAssemblyInfo.cs
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.Views.pdb
+C:\Users\Faruk\source\repos\seminarski_rad\webapp\BEFIT\BEFIT\obj\Debug\netcoreapp2.1\BEFIT.csproj.CopyComplete

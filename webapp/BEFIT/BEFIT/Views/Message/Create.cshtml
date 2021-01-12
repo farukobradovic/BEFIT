@@ -1,0 +1,59 @@
+﻿@model BEFIT.ViewModels.Message.CreateMessageViewModel
+
+@{
+    ViewBag.Title = "Obavijesti admin tim";
+}
+
+<div class="container-no-flex">
+    <div class="profile-form">
+        <h1>Obavijesti admin tim</h1>
+        <form method="post" id="createMessage-form">
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for=@Model.Type>Vrsta korisnika</label>
+                    <select asp-for=@Model.Type>
+                        @foreach (var t in Model.TypeNames)
+                        {
+                        <option value=@t>@t</option>
+                        }
+
+                    </select>
+                </div>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="Title">Naslov</label>
+                    <input asp-for="Title" type="text" placeholder="Naslov poruke" />
+                </div>
+
+                <span asp-validation-for="Title" class="message-danger"></span>
+            </div>
+            <div class="form-inputs">
+                <div class="upper">
+                    <label asp-for="Description">Opis</label>
+                    <textarea asp-for="Description" type="text" placeholder="Unesite opis problema/preporuke" rows="10"> </textarea>
+                </div>
+
+                <span asp-validation-for="Description" class="message-danger"></span>
+            </div>
+            <button type="submit" class="submit-form" id="submit-form">
+                <i class="fas fa-save"></i> Potvrdi
+            </button>
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#submit-form").click(function () {
+            ValidateForm();
+        });
+    });
+
+    function ValidateForm() {
+        if (!$("#createMessage-form").valid()) {
+            return false;
+        }
+    }
+
+</script>

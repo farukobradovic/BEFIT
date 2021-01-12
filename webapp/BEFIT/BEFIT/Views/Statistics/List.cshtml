@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Statistic>
+
+
+@{
+    ViewBag.Title = "Pregled svih testova";
+}
+
+<div class="container-no-flex">
+    <h1 style="font-weight: 400; text-align: center; margin-bottom: 3rem;">Uvid u statistiku</h1>
+    <form method="post">
+        <table class="products-table">
+            <tr>
+                <th>BMI</th>
+                <th>Ime i prezime</th>
+                <th>Visina</th>
+                <th>Težina</th>
+                <th>Datum mjerenja</th>
+                <th style="width: 15%;"><i class="fas fa-trash-alt"></i></th>
+            </tr>
+            @foreach (var m in Model)
+            {
+                <tr>
+                    <td>@m.CalculatedBMI.ToString("F")</td>
+                    <td>@m.User.Firstname @m.User.Lastname</td>
+                    <td>@m.Height m</td>
+                    <td>@m.WeightInKilos kg</td>
+                    <td>@m.DateCalculated</td>
+                    <td><button type="submit" class="delete-product" asp-route-id=@m.StatisticID  onclick="return confirm('Da li ste sigurni da želite obrisati BMI test?')">Obriši</button></td>
+                </tr>
+            }
+        </table>
+    </form>
+
+</div>

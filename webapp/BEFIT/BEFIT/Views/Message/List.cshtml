@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Message>
+
+@{
+    ViewBag.Title = "Pregled poruka";
+}
+
+<div class="container-no-flex">
+    <h1 style="margin-bottom:3rem; text-align:center; font-weight:400;">Pregled poruka</h1>
+    <a asp-action="Display" asp-controller="MessageType" class="add-button" style="margin-right:1rem">
+        <i class="fas fa-envelope"></i> Pregled vrsta poruka
+    </a>
+    <a asp-action="Index" asp-controller="Sms" class="add-button" style="margin-right:1rem;">
+        <i class="fas fa-envelope"></i> Posalji sms poruku
+    </a>
+    <table class="products-table messages-table-mobile">
+        <tr>
+            <th>Vrsta</th>
+            <th>Poslao</th>
+            <th>Datum slanja</th>
+            <th>Naslov</th>
+            <th>Riješeno</th>
+            <th><i class="far fa-eye"></i></th>
+        </tr>
+
+        @foreach (var m in Model)
+        {
+            <tr>
+                <td>@m.Type.Description</td>
+                <td>@m.User.Firstname @m.User.Lastname</td>
+                <td>@m.DateCreated</td>
+                <td>@m.Title</td>
+                <td>@(m.Resolved ? "Da" : "Ne")</td>
+                <td>
+                    <a asp-action="Display" asp-controller="Message" asp-route-id=@m.ID style="font-size:1.5rem; width:9rem; display:inline-block; text-align:center;" class="buy-product"> Pogledaj</a>
+                </td>
+
+            </tr>
+        }
+    </table>
+</div>

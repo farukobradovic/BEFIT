@@ -1,0 +1,46 @@
+﻿@model Message
+@{
+    ViewBag.Title = "Pregled poruke od " + Model.User.Firstname;
+}
+
+<div class="container-no-flex">
+
+    <form method="post">
+        <div class="article">
+            <div class="first-section">
+                <div class="img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbRVmmgjFoLDIKKRv-LQrGgJVna8DON4oDAIziLH5zUkBQcLkrJw&s"
+                         alt="" />
+                </div>
+                <div class="description">
+                    <h2>
+                        @Model.Title
+                    </h2>
+                    <p><span style="font-weight:500;">Datum slanja: </span>@Model.DateCreated</p>
+                    <p><span style="font-weight:500;">Vrsta poruke: </span>@Model.Type.Description</p>
+                    <p><span style="font-weight:500;">Poslao/la: </span>@Model.User.Firstname @Model.User.Lastname</p>
+                    <p><span style="font-weight:500;">Riješeno: </span>@(Model.Resolved ? "Da" : "Ne")</p>
+                    @if (Model.Resolved)
+                    {
+                        <p><span style="font-weight:500;">Datum rješenja: </span>@Model.DateResolved</p>
+                    }
+                </div>
+            </div>
+            <div class="second-section">
+                <p>
+                    @Model.Description
+                </p>
+            </div>
+            @if (!Model.Resolved)
+            {
+                <div class="buttons">
+                    <button type="submit" asp-route-id="@Model.ID" class="delete-article linkButton">
+                        <i class="fas fa-check"></i> Završi
+                    </button>
+                </div>
+            }
+        </div>
+    </form>
+
+
+</div>

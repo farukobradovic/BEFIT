@@ -1,0 +1,19 @@
+﻿@model BEFIT.ViewModels.Exercise.DisplayVjezbePartialVM 
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<div class="cards-workout">
+    @foreach (var e in Model.rows)
+    {
+        var photoPath = "~/Images/" + (e.PhotoPath);
+        <a asp-action="DisplayExercise" asp-controller="Exercise" asp-route-id="@e.ExerciseId" class="card-workout">
+            <div class="img">
+                <img src="@photoPath" asp-append-version="true"
+                     alt="" />
+            </div>
+            <h2 class="heading-workout">@e.ExerciseName</h2>
+            <p class="paragraph-workout">@e.CategoryName</p>
+        </a>
+    }
+</div>

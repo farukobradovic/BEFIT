@@ -1,0 +1,43 @@
+﻿@model BEFIT.ViewModels.Account.LoginViewModel
+
+@{
+    ViewBag.Title = "Prijavi se";
+}
+
+    <div class="container-first">
+        @*<h1 class="heading-logo"><span>B-E-</span>Fit</h1>*@
+        <div class="img-logo-main">
+            <img src="~/images/logotip.png" alt="" />
+        </div>
+        <form method="post" class="login-form" id="login-form">
+            <h1>Prijava</h1>
+            <div class="inputs">
+
+                <div class="input-div">
+                    <i class="fas fa-user"></i><input asp-for="Username" type="text" placeholder="KorisničkoIme" class="inputDivJs" />
+                </div>
+                @*<span asp-validation-for="Username" class="message-danger"></span>*@
+                <div class="input-div">
+                    <i class="fas fa-key"></i><input asp-for="Password" type="password" placeholder="Šifra" class="inputDivJs" />
+                </div>
+                @*<span asp-validation-for="Password" class="message-danger"></span>*@
+                <div asp-validation-summary="All" style="list-style: none;" class="message-danger"></div>
+                <div class="second-section">
+                    <div style="display:flex; align-items:center; justify-content:space-between; margin-top:1rem;">
+                        <div class="remember">
+                            <input asp-for="RememberMe" type="checkbox" />
+                            <label asp-for="RememberMe">
+                                Zapamti Me
+                            </label>
+                        </div>
+                        <a asp-action="ForgotPassword" asp-controller="Account" style="margin-bottom:0" class="add-button">Zaboravili ste šifru</a>
+                    </div>
+                    <button type="submit" class="submit-login" id="submit-form">
+                        <i class="fas fa-sign-in-alt"></i> Prijavite se
+                    </button>
+
+                </div>
+                <!-- <input type="submit" class="submit-login" value="Prijavite se" /> -->
+            </div>
+        </form>
+    </div>

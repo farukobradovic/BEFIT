@@ -1,0 +1,37 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "AddProduct";
+}
+
+<div class="container-no-flex">
+    <div class="profile-form">
+        <h1>Dodavanje proizvoda</h1>
+        <form asp-controller="Product" asp-action="AddProduct" method="post">
+            <div class="form-inputs" style="flex-direction:column;">
+                <div style="display:flex; align-items:center; width:100%;">
+                    @Html.LabelFor(p => p.Naziv)
+                    <input type="text" placeholder="Naziv proizvoda" id="idNaziv" asp-for="Naziv" />
+                </div>
+                <span asp-validation-for="Naziv" class="message-danger"></span>
+            </div>
+            <div class="form-inputs" style="flex-direction:column;">
+                <div style="display:flex; align-items:center; width:100%;">
+                    @Html.LabelFor(p => p.ExpirationDate)
+                    <input type="datetime" placeholder="Rok trajanja proizvoda" id="idRokTrajanja" asp-for="ExpirationDate" />
+                </div>
+                </div>
+            <div class="form-inputs" style="flex-direction:column;">
+                <div style="display:flex; align-items:center; width:100%;">
+                    @Html.LabelFor(p => p.Price)
+                    <input type="text" placeholder="Cijena proizvoda" id="idCijena" asp-for="Price" />
+                </div>
+                <span asp-validation-for="Price" class="message-danger"></span>
+
+            </div>
+                <button type="submit" class="update-article">
+                    <i class="fas fa-save"></i> Potvrdi
+                </button>
+</form>
+    </div>
+</div>
